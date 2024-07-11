@@ -8,7 +8,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 2rem;
   max-width: 1280px;
   width: 100%;
@@ -50,6 +50,37 @@ body {
 .container form fieldset.form__btns button {
   flex: 1;
   padding: 0.25rem;
+}
+.container #employees {
+  flex: 1;
+}
+.container #employees table thead {
+  background-color: lightgray;
+}
+.container #employees table thead th {
+  width: 200px;
+  text-align: center;
+  border: black 1px solid;
+}
+.container #employees table #employeeList {
+  background-color: rgb(250, 225, 150);
+}
+.container #employees table #employeeList tr {
+  text-align: center;
+  width: 200px;
+}
+.container #employees table #employeeList tr td {
+  border: black 1px solid;
+  width: 200px;
+  padding: 5px;
+}
+.container #employees table #employeeList tr td img {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+.container #employees table #employeeList tr td button {
+  margin: 5px auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
